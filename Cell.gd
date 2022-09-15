@@ -13,3 +13,5 @@ func _on_Cell_pressed():
 	var index = int(mouse_pos.y / rect_size.y) * 3 + int(mouse_pos.x / rect_size.x)
 	emit_signal("cell_pressed", index)
 	
+
+
